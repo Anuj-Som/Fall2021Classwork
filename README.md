@@ -1,11 +1,11 @@
 # Health Database
 
-##Author Information
+## Author Information
 Author: Anuj Som
 
 Fall 2021
 
-###Specifications
+### Specifications
 
 * Data will include:
 * Patient Name
