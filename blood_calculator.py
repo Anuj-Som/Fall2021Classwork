@@ -15,12 +15,12 @@ def interface():
 	return choice
 
 def HDL_Driver():
-	hdl_input()
-	hdl_info = hdl_analysis()
-	hdl_output(hdl_info)
+	hdl_value = hdl_input()
+	hdl_character = hdl_analysis(hdl_value)
+	hdl_output(hdl_value, hdl_character)
 
 def hdl_input():
-	hdl_value = int(input(("Enter HDL Value: "))
+	hdl_value = int(input(("Enter HDL Value: ")))
 	return hdl_value
 
 def hdl_analysis(HDL_value):
@@ -30,5 +30,10 @@ def hdl_analysis(HDL_value):
 		return "Borderline Low"
 	else:
 		return "Low"
-	
+
+def hdl_output(HDL_value, HDL_character):
+	print("The HDL value of {} is considered {}".format(HDL_value, HDL_character))
+	return
+
+
 interface()
