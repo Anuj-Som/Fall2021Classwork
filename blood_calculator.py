@@ -38,7 +38,7 @@ def hdl_output(HDL_value, HDL_character):
 	print("The HDL value of {} is considered {}".format(HDL_value, HDL_character))
 	return
 
-def LDL_driver():
+def LDL_Driver():
 	ldl_value = ldl_input()
 	ldl_character = ldl_analysis(ldl_value)
 	ldl_output(ldl_value,ldl_character)
@@ -52,7 +52,7 @@ def ldl_analysis(LDL_value):
 		return "very high"
 	elif 160 <= LDL_value < 190:
 		return "high"
-	elif 130 <= LDL-value < 160:
+	elif 130 <= LDL_value < 160:
 		return "borderline high"
 	else:
 		return "normal"
