@@ -1,5 +1,5 @@
-print("This this is the blood_calculator.py module")
-print("It's name is {}".format(__name__))
+#print("This this is the blood_calculator.py module")
+#print("It's name is {}".format(__name__))
 
 def interface():
 	print("Blood Calculator")
