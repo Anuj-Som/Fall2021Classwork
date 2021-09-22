@@ -10,7 +10,7 @@ def parse_weight_input(weight_input):
     weight, units = weight_input.split(' ')
     weight = float(weight)
     units = units.lower()
-    units = units.rstrip("s") #strip off "s" at the end if plural
+    units = units.rstrip("s")  # strip off "s" at the end if plural
     if units == "lb":
         weight_kg = convert_lb_to_kg(weight)
     else:
@@ -26,5 +26,3 @@ def convert_lb_to_kg(weight_lb):
 
 if __name__ == "__main__":
     input_weight_entry()
-
-
