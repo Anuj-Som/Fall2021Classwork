@@ -1,0 +1,5 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2021 13:13:30] "[33mGET /info HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2021 13:13:30] "[33mPOST /hdl HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2021 13:14:37] "[33mGET /info HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2021 13:14:37] "[33mPOST /hdl HTTP/1.1[0m" 404 -
